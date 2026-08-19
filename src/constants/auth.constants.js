@@ -1,0 +1,22 @@
+export const AUTH_CONSTANTS = {
+  ACCESS_TOKEN_TYPE: "access",
+  REFRESH_TOKEN_TYPE: "refresh",
+
+  ACCESS_TOKEN_COOKIE: "accessToken",
+  REFRESH_TOKEN_COOKIE: "refreshToken",
+
+  OTP_LENGTH: 6,
+  OTP_EXPIRES_IN_MINUTES: 10,
+  MAX_OTP_ATTEMPTS: 5,
+
+  OTP_PURPOSE: {
+    EMAIL_VERIFICATION: "email_verification",
+    LOGIN: "login",
+    PASSWORD_RESET: "password_reset",
+  },
+
+  MAX_LOGIN_ATTEMPTS: 5,
+  LOGIN_LOCK_TIME_MINUTES: 15,
+
+  PASSWORD_RESET_TOKEN_EXPIRES_IN_MINUTES: 15,
+};
