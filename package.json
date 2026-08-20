@@ -1,0 +1,37 @@
+{
+  "name": "auth-services",
+  "version": "1.0.0",
+  "description": "Authentication service built with Node.js, Express and MongoDB",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhisheksingh555-ai/auth-services.git"
+  },
+  "keywords": [
+    "authentication",
+    "auth",
+    "express",
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "Abhishek Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhisheksingh555-ai/auth-services/issues"
+  },
+  "homepage": "https://github.com/abhisheksingh555-ai/auth-services#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.9.3",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
